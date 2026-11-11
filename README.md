@@ -23,19 +23,83 @@
 
 ---
 
-## 🌿 The Vedic Philosophical Foundation
+## 🌿 The Vedic Philosophical Foundation & Cosmic Equilibrium
+
+<div align="center">
+
+### 🔱 Lord Nataraja: The Cosmic Dance of Elemental Balance (नटराज ताण्डव)
+
+```text
+                           ____,......__
+                     _, -'' _________,..i''--.._
+                 ,.-'' ,.-''             '' ... '`-._
+              ,/' _.-''                        '`-.  '-
+            ,' ,-'                                 ':. `-
+          ,' ,'                                       `. `.
+         / ,'                                           `. \
+       ,' /                       .|                      \ `.
+      /  /                        '\                       \  \
+     / ,'                       ,''`__                      `. \
+    / /                         ':::.|                        \ \
+   / ;                          |+-'i|                         : \
+  ;  ;                         ,',''.|                         :  :
+  ; /                         /,|- --|\                         \ :
++/ /                         ,;'| ;; |\\                         \ \
+; ;                         ,/__,\--i .L`                         : :
+;-;   /|                  ,''|||'    '+-:...                      : :
+ ;._ |..\              _-'    |`      | _''-:`-.           ,''--'' : :
+ |\ / \              ,-       |.\-   ,|/-   |   \         ,' /-    | |
+ ; '`\ ;-         _-'     ,,. '`:`'ii,''   ,_    -.     _:..;:     : :
+;    -' ;+      ,+||,. _,' ,\...--'    ,,-i -`..   '-._,''''        : :
+|     -:  '.. +'||| ||/  /' __,.....'-'  ,'   '-'-.    `  /         | |
+|      \     .  |.  /,/;;,'' |          /         ''-..__'          | |
+|       \   |    `-/' |/|     \        .              \             | |
+|         ''|`._.-'   |'     __-`-.._....:                          | |
+|            '             ,'  ''.---iii  '-_                       | |
+:                        ,'      `\::\      `:'-.                  _; ;
+ :                     ,'     ,._ |\::\      ':_.:=.._______..,--''; ;
+ |                   /'    ,i:,'':+ \::\      | `_ \-._ .__     _. | |
+-:-                /'   _,'' /      :`\:\     .   \ `\ '--.i---'   ; ;
+: :             -;:. ,,-    /        ',i.:___/     \  '-.   '-..  ; ;
+: :       ,-----  i;/'     '         /     '        `    '`-.._,:`;,;
+ \ \       '''--.,-'     ,'        /'                ' .._____,.-+'/
+  : \                   /       ,/'                             / ;
+  :  :                 ||    _,'                               ;  ;
+   \ :                  |    |                                 ; /
+    \ \                  \    \                               / /
+     \ `.                 `    \                            ,' /
+      \  \                 `.  '.                          /  /
+       `. \                  \__i.                        / ,'
+         \ `.                 +''`.                     ,' /
+          `. `.       ,+.._;:-i;.--:  .-.             ,' ,'
+            `. `.    (\i.).-''-=-----+--`\          ,' ,'
+              `. `-.  `+'.---.....|-.|__ +'''':-.,-' ,'
+                `-. `-.../       - ...:=-.|   ,-' ,-'
+                   `-. `--._  :dg:       _.--' ,-'
+                      `---._''---------''_.---'
+                            ''---------''
+```
+
+</div>
+
+> ### सौवर्णाम्भोजमध्यस्थं भजे मणिसभानटम् ।<br/>चिदम्बरेशं नटेशं नमामि सततं शिवम् ॥
+> *sauvarṇāmbhojamadhyasthaṁ bhaje maṇisabhānaṭam |<br/>cidambareśaṁ naṭeśaṁ namāmi satataṁ śivam ||*
+> 
+> — **चिदम्बर नटराज ध्यानम् (Chidambara Nataraja Dhyanam)**
+> 
+> *"In the Ānanda Tāṇḍava (Cosmic Dance of Bliss), Lord Nataraja holds Agni (purifying fire) in one hand and the Damaru (creative rhythm of the cosmos) in the other, dancing within the arch of flames (Prabhavali) to perpetually balance the Pancha Bhoota (Ether, Air, Fire, Water, Earth). Eco Guardian embodies this dynamic balance—transforming inert urban poles into vigilant, rhythmic sentinels of Vāyu Shuddhi (atmospheric restoration)."*
 
 > ### वात॒ आ वा॑तु भेष॒जं श॒म्भु म॑यो॒भु नो॑ हृ॒दे ।<br/>प्र ण॒ आयूं॑षि तारिषत् ॥
 > *vā́ta ā́ vātu bheṣajáṃ śambhú mayobhú no hṛdé |<br/>prá ṇa ā́yūṃṣi tāriṣat ||*
 > 
-> — **ऋग्वेद (Rigveda 10.186.1)**
+> — **ऋग्वेद (Rigveda 10.186.1, Vāyu Sukta)**
 > 
 > *"May Vāyu, the sacred Wind, blow upon us a healing balm that restores wholeness, brings deep peace to our hearts, and extends the span of our lives."*
 
 > ### माता भूमिः पुत्रोऽहं पृथिव्याः ।
 > *mātā bhūmiḥ putro'haṁ pṛthivyāḥ |*
 > 
-> — **अथर्ववेद (Atharvaveda 12.1.12, Prithvi Sukta)**
+> — **अथर्ववेद (Atharvaveda 12.1.12, Pṛthivī Sūkta)**
 > 
 > *"The Earth is our sacred Mother; and we are the children of this Earth."*
 
