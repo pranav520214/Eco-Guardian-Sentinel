@@ -1,21 +1,26 @@
 # 🛠️ Eco Guardian: Hardware Fabrication & Mechanical Engineering
 
-This document outlines the materials science, fabrication techniques, chassis structural design, and Bill of Materials (BOM) for the **Eco Guardian** sentinel.
+> ### या ओषधीः पूर्वा जाता देवेभ्यस्त्रियुगं पुरा ।<br/>मनै नु बभ्रूणामहं शतं धामानि सप्त च ॥
+> *yā oṣadhīḥ pūrvā jātā devebhyastriyugaṁ purā |<br/>manai nu babhrūṇāmahaṁ śataṁ dhāmāni sapta ca ||*
+> 
+> — **ऋग्वेद (Rigveda 10.97.1, Oshadhi Sukta)**
+> 
+> *"The sacred plants and herbs that were born long before the gods, through three ancient ages—I contemplate their hundred and seven divine healing powers to protect and restore wholeness."*
 
 ---
 
-## 1. Sustainable Materials: Indigenous Jute Composite
+## 1. Sustainable Materials: Indigenous Golden Jute Composite
 
-Traditional outdoor industrial equipment relies on non-biodegradable petroleum-derived plastics (ABS, PVC) or heavy steel enclosures prone to rust and high thermal absorption. 
+Traditional industrial street equipment relies on non-biodegradable petroleum-derived plastics (ABS, PVC) or heavy steel enclosures prone to rust and high thermal absorption in direct sunlight. 
 
-Eco Guardian utilizes **natural Indian jute composite**—leveraging India's position as the world's largest jute producer to create an indigenous, circular-economy enclosure:
+Eco Guardian utilizes **natural Indian golden jute composite**—leveraging India's position as the world's leading jute producer to create an indigenous, circular-economy enclosure:
 
 ```
-[Raw Woven Jute Burlap] ──> [Alkali NaOH Treatment] ──> [Bio-Epoxy Resin Infusion] ──> [Bio-Wax Sealing] ──> [IP65 Weatherproof Chassis]
+[Raw Woven Jute Fabric] ──> [Alkali Treatment] ──> [Bio-Epoxy Resin Infusion] ──> [Bio-Wax Sealing] ──> [IP65 Weatherproof Chassis]
 ```
 
 ### 1.1 Chemical Treatment & Weatherproofing Process
-1. **Fiber Preparation & Alkali Washing**: Raw woven jute fabrics are washed in a 2% Sodium Hydroxide ($\text{NaOH}$) solution for 30 minutes to strip hemicellulose and lignin, increasing fiber surface roughness and improving mechanical bonding with the polymer matrix.
+1. **Fiber Preparation & Alkali Washing**: Raw woven jute fabrics are washed in a 2% Sodium Hydroxide ($\text{NaOH}$) solution for 30 minutes to strip natural hemicellulose and lignin, increasing fiber surface roughness and improving mechanical bonding with the polymer matrix.
 2. **Matrix Infusion**: The treated jute layers (4-ply bidirectional weave) are laminated using a plant-based bio-epoxy resin derived from cashew nutshell liquid (CNSL) at a 60:40 fiber-to-resin ratio.
 3. **Hydrophobic Wax Sealing**: The cured composite is coated with a hot-melt hydrophobic bio-wax (natural carnauba and beeswax blend). This establishes a high water contact angle ($\theta > 115^\circ$), ensuring rain droplets roll off immediately without fiber swelling.
 4. **Thermal & Fire Retardancy**: Treated with ammonium polyphosphate (APP) mineral additives to prevent flammability and withstand direct summer sunlight up to $55^\circ\text{C}$.
@@ -34,7 +39,7 @@ Eco Guardian utilizes **natural Indian jute composite**—leveraging India's pos
 |    +-----------------------------+-----------------------------+        |
 |    |                                                           |        |
 |    |   [Tower 1: Misting]                 [Tower 2: Filtration]|        |
-|    |   • 113kHz Transducer                • Dual Brushless Fan |        |
+|    |   • High-frequency transducer        • Dual Brushless Fan |        |
 |    |   • Downward 45° angle               • Cyclonic Intake    |        |
 |    |                                                           |        |
 |    +-----------------------------------------------------------+        |
@@ -45,9 +50,9 @@ Eco Guardian utilizes **natural Indian jute composite**—leveraging India's pos
 |    ==================== SILICONE GASKET SEAL ===================        |
 |    +-----------------------------------------------------------+        |
 |    |  LOWER CHAMBER: Dry Electronics & Power Storage           |        |
-|    |  • ESP32-S3 Microcontroller Brain in IP65 Enclosure       |        |
+|    |  • Microprocessor Brain in IP65 Enclosure                 |        |
 |    |  • 12.8V 6000mAh LiFePO4 Battery Buffer                   |        |
-|    |  • MPPT CN3791 Solar Charge Regulator                    |        |
+|    |  • MPPT Solar Charge Regulator                            |        |
 |    |  • Front: SSD1306 OLED Telemetry Display                  |        |
 |    |  • Front: Illuminated 24/7 Citizen SOS Panic Button       |        |
 |    +-----------------------------------------------------------+        |
@@ -55,7 +60,7 @@ Eco Guardian utilizes **natural Indian jute composite**—leveraging India's pos
 +-------------------------------------------------------------------------+
 ```
 
-### 2.1 Physical Specifications
+### Physical Specifications
 - **Form Factor**: Cylindrical sentinel pole-mounting tower.
 - **Dimensions**: Height $85\text{ cm} \times \text{Width } 28\text{ cm} \times \text{Depth } 22\text{ cm}$.
 - **Weight**: $4.8\text{ kg}$ (including 12.8V battery and solar mounting brackets).
@@ -70,21 +75,21 @@ Below is the certified Bill of Materials for the bench-tested prototype alongsid
 
 | Subsystem / Component | Manufacturer / Model | Qty | Prototype Cost (₹) | Batch Cost (30+ Units) (₹) |
 | :--- | :--- | :---: | :---: | :---: |
-| **Microcontroller Brain** | ESP32-S3-WROOM-1 (8MB Flash) | 1 | ₹650 | ₹420 |
-| **Optical Dust Sensor** | Sharp GP2Y1014AU0F + Cable Harness | 1 | ₹580 | ₹420 |
-| **Hazardous Gas Array** | Waveshare MQ-135 Gas Sensor Module | 1 | ₹350 | ₹240 |
+| **Microprocessor Brain** | Dual-Core 240MHz Processor (8MB Flash) | 1 | ₹650 | ₹420 |
+| **Optical Dust Sensor** | Sharp Optical Particle Sensor + Harness | 1 | ₹580 | ₹420 |
+| **Hazardous Gas Array** | Multi-Gas VOC & Ammonia Detection Array | 1 | ₹350 | ₹240 |
 | **Local Display** | 0.96" I2C SSD1306 OLED (128x64) | 1 | ₹280 | ₹190 |
-| **Cellular / GPS Telemetry** | SIM7600E 4G LTE VoLTE Module | 1 | ₹2,800 | ₹1,950 |
-| **Ultrasonic Transducer** | 113 kHz Piezoelectric Misting Plate + Driver | 2 | ₹420 | ₹280 |
-| **Airflow Blowers** | Dual 12V 5015 Brushless Blower Fans | 2 | ₹480 | ₹340 |
+| **Cellular / GPS Telemetry** | 4G LTE VoLTE / GPS Communication Board | 1 | ₹2,800 | ₹1,950 |
+| **Ultrasonic Transducer** | High-Frequency Piezoelectric Misting Plate | 2 | ₹420 | ₹280 |
+| **Airflow Blowers** | Dual 12V Brushless High-Flow Blower Fans | 2 | ₹480 | ₹340 |
 | **Power Storage** | 12.8V 6000mAh LiFePO4 Battery Pack + BMS | 1 | ₹3,400 | ₹2,600 |
 | **Solar Generation** | 10W 18V Monocrystalline PV Panel | 1 | ₹1,100 | ₹850 |
-| **Charge Controller** | CN3791 MPPT Solar Charge Board | 1 | ₹380 | ₹260 |
+| **Charge Controller** | MPPT Solar Charge Board | 1 | ₹380 | ₹260 |
 | **Citizen SOS Button** | IP67 Stainless Steel Illuminated 19mm Button | 1 | ₹320 | ₹220 |
 | **Audio-Visual Strobe** | 100-Lumen LED Strobe Ring + 85dB Buzzer | 1 | ₹290 | ₹190 |
 | **Jute Composite Enclosure** | Natural Indian Jute + Bio-Epoxy + Bio-Wax | 1 | ₹1,850 | ₹1,100 |
 | **Wiring, Fasteners & Seals**| Silicone gaskets, SS304 screws, connectors | — | ₹950 | ₹540 |
-| **Camera Module** | OV2640 DVP Edge Camera Module | 1 | ₹650 | ₹460 |
+| **Camera Module** | High-Definition Optical Edge Surface Sensor | 1 | ₹650 | ₹460 |
 | **Assembly & Quality Testing**| Bench assembly, wiring loom, lab leak testing | — | ₹790 | ₹500 |
 | **TOTAL UNIT BOM COST** | — | — | **₹15,000** | **₹10,560** |
 

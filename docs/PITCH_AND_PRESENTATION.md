@@ -1,6 +1,11 @@
 # 🎤 Eco Guardian: Grand Finale Pitch & Stage Presentation Guide
 
-This document outlines the official 14-slide pitch deck structure, stage speaker division, time budgeting, and defense strategies for the **Bharat Innovation Challenge 2.0 (BIC 2.0) Grand Finale** at Lovely Professional University (Nov 20–21, 2026).
+> ### भद्रं कर्णेभिः शृणुयाम देवा भद्रं पश्येमाक्षभिर्यजत्राः ।<br/>स्थिरैरङ्गैस्तुष्टुवांसस्तनूभिर्व्यशेम देवहितं यदायुः ॥
+> *bhadraṁ karṇebhiḥ śṛṇuyāma devā bhadraṁ paśyemākṣabhiryajatrāḥ |<br/>sthirairaṅgaistuṣṭuvāṁsastanūbhirvyaśema devahitaṁ yadāyuḥ ||*
+> 
+> — **ऋग्वेद (Rigveda 1.89.8 / Prashna Upanishad Shanti Patha)**
+> 
+> *"O Divine Powers, may we hear with our ears what is noble, pure, and auspicious; may we behold with our eyes what is righteous and uplifting. Endowed with steadfast limbs and healthy bodies, may we live our full lifespan dedicated to the welfare of all beings."*
 
 ---
 
@@ -22,13 +27,13 @@ This document outlines the official 14-slide pitch deck structure, stage speaker
 | **02** | **Problem & Opportunity**: The Invisible Crisis | `0:30 - 1:00` | **Naman** (30s) | Narrative hook: Bhopal (1984), 1.67M smog deaths, 150k road crashes. |
 | **03** | **Gap Analysis**: The Legacy Trilemma | `1:00 - 1:30` | **Naman** (30s) | Contrast matrix: Dyson (₹40k), Prana Air (₹25k), CAAQMS (₹50L). |
 | **04** | **Our Solution**: Sense-Filter-Protect Sentinel | `1:30 - 2:15` | **Naman** (15s) + **Pranav** (30s) | Pranav walks through the 3 physical pillars on the prototype. |
-| **05** | **Technology**: Dual-Tier Edge AI & DPDT Cloud | `2:15 - 2:55` | **Naman** (25s) + **Pranav** (15s) | DPDT Act 2023 edge face/plate blurring; ESP32-S3 off-grid power. |
+| **05** | **Technology**: Dual-Tier Edge AI & DPDT Cloud | `2:15 - 2:55` | **Naman** (25s) + **Pranav** (15s) | DPDT Act 2023 edge face/plate blurring; off-grid solar reliability. |
 | **06** | **Prototype / MVP**: Bench-Tested Reality | `2:55 - 3:50` | **Pranav (Hero Demo)** (45s) | **LIVE DEMO**: Jute chassis, OLED live AQI, 148 → 41 µg/m³ in 90s. |
 | **07** | **Municipal Dispatch**: Zomato-Style Road Repair | `3:50 - 4:20` | **Naman** (30s) | Dwarka Sector 1 pothole triage to Sector 2 worker mobile dispatch. |
 | **08** | **Impact & Outcomes**: UN SDG Alignment | `4:20 - 4:40` | **Naman** (20s) | Real UN SDG 3 (72% PM cut), SDG 11 (80% faster fixes), SDG 13 (solar). |
 | **09** | **Business Model**: DPDT Data + Dual SaaS | `4:40 - 5:05` | **Naman** (25s) | 3 revenue streams; ₹15.5L to ₹3.23 Cr financial trajectory. |
 | **10** | **Scalability Blueprint**: Pan-India Rollout | `5:05 - 5:15` | **Naman** (10s) | Tier-1 metros (Dwarka anchor) → Tier-2 hubs → Tier-3 chemical belts. |
-| **11** | **Competitive Advantage**: The Multi-Domain Moat | `5:15 - 5:25` | **Naman** (10s) | 5x4 matrix proving why point products cannot compete with Eco Guardian. |
+| **11** | **Competitive Advantage**: The Multi-Domain Moat | `5:15 - 5:25` | **Naman** (10s) | Matrix proving why point products cannot compete with Eco Guardian. |
 | **12** | **Team & Capabilities**: Execution Engine | `5:25 - 5:45` | **Naman** (15s) + **Pranav** (10s) | Complementary mastery: physical circuits, pitch defense, mentorship. |
 | **13** | **Dedicated Thank You**: Guarding Every Breath | `5:45 - 6:00` | **Naman** (15s) | Memorable punchline; invites jury for hardware inspection. |
 | **14** | **Funding Ask & De-risking Milestones** | *Q&A Only* | **Naman** & **Pranav** | Reserved for jury funding question: ₹15L ask & 12-month deliverables. |
@@ -60,7 +65,7 @@ When the jury asks: *"What is your capital ask?"* or *"How will you use the fund
 
 ---
 
-## 4. Presentation Deliverable Files in this Repo
+## 4. Presentation Deliverables in this Repo
 
 - **Primary Grand Finale Presentation (PPTX)**: `assets/presentation/Eco_Guardian_Grand_Finale_Deck.pptx`
 - **Official High-Resolution PDF**: `assets/presentation/Eco_Guardian_Grand_Finale_Deck.pdf`

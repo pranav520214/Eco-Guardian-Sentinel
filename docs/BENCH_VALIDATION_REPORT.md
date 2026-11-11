@@ -1,10 +1,15 @@
 # 📊 Eco Guardian: Bench Validation & Empirical Test Chamber Report
 
-This report documents the empirical laboratory testing, test chamber protocols, sensor calibration verification, and particulate precipitation curves for the **Eco Guardian TRL-4 prototype**.
+> ### पवमानः पुनातु मां देवैर्जनैः सहेह यः ।<br/>पुनन्तु ऋषयो धिया पुनन्तु वसवो मयि ॥
+> *pavamānaḥ punātu māṁ devairjanaiḥ saheha yaḥ |<br/>punantu ṛṣayo dhiyā punantu vasavo mayi ||*
+> 
+> — **ऋग्वेद (Rigveda 9.67.27, Pavamana Sukta)**
+> 
+> *"May the purifying Divine Flow cleanse me; may the illuminated seers purify my intellect, and may the benevolent cosmic forces awaken profound purity and life within me."*
 
 ---
 
-## 1. Experimental Methodology & Test Chamber Setup
+## 1. Experimental Methodology & Chamber Setup
 
 Testing was conducted at the **STEM Innovation Cell, Army Public School Jalandhar Cantt**, under the supervision of Faculty Mentor Keshav Aggarwal.
 
@@ -22,21 +27,21 @@ Testing was conducted at the **STEM Innovation Cell, Army Public School Jalandha
 |     +-------------------------------------------------------------+     |
 |     |                                                             |     |
 |     |               ECO GUARDIAN PROTOTYPE NODE                   |     |
-|     |               • Sharp Optical GP2Y1014AU0F                  |     |
-|     |               • MQ-135 Multi-Gas Array                      |     |
-|     |               • Dual 113kHz Ultrasonic Misting Nozzles      |     |
+|     |               • Optical Particle Sensor                     |     |
+|     |               • Multi-Gas Detection Array                   |     |
+|     |               • Dual Ultrasonic Misting Nozzles             |     |
 |     |               • Dual Cyclonic Blower Intake                 |     |
-|     |               • SSD1306 Live Telemetry OLED                 |     |
+|     |               • SSD1306 Live Telemetry Display              |     |
 |     |                                                             |     |
 |     +-------------------------------------------------------------+     |
 |                                                                         |
 +-------------------------------------------------------------------------+
 ```
 
-### 1.1 Equipment & Instrumentation
-- **Chamber Dimensions**: $100\text{ cm} \times 80\text{ cm} \times 100\text{ cm}$ ($0.8\text{ m}^3$ airtight transparent acrylic).
-- **Aerosol Generation**: Controlled particulate generation using synthetic incense and organic smoke, establishing dense baseline PM2.5 concentrations exceeding $150\ \mu\text{g/m}^3$.
-- **Reference Benchmarks**: Dual comparison against a calibrated commercial optical particle counter (Temtop M2000 2nd Gen) and a lab-grade digital anemometer.
+### Equipment & Chamber Parameters
+- **Chamber Volume**: $100\text{ cm} \times 80\text{ cm} \times 100\text{ cm}$ ($0.8\text{ m}^3$ sealed transparent enclosure).
+- **Aerosol Generation**: Controlled organic incense smoke establishing hazardous severe outdoor smog baselines exceeding $150\ \mu\text{g/m}^3$.
+- **Reference Benchmarks**: Dual comparison against a calibrated commercial optical particle counter and a digital anemometer.
 
 ---
 
@@ -44,12 +49,12 @@ Testing was conducted at the **STEM Innovation Cell, Army Public School Jalandha
 
 The closed-loop autonomous system was programmed to engage its dual brushless blowers when $\text{AQI} > 100$ and activate ultrasonic misting when $\text{PM2.5} > 60\ \mu\text{g/m}^3$.
 
-### 2.1 Time-Series Telemetry Log
+### Time-Series Telemetry Log
 
 | Time Elapsed (Seconds) | Eco Guardian Measured PM2.5 ($\mu\text{g/m}^3$) | Reference Counter PM2.5 ($\mu\text{g/m}^3$) | Delta Error (%) | System Operational State |
 | :---: | :---: | :---: | :---: | :--- |
 | **0 s** | **148.0** | 150.2 | -1.46% | Severe Smog Baseline; Fan starts |
-| **10 s** | **142.5** | 144.1 | -1.11% | Blower ramped to 100% PWM |
+| **10 s** | **142.5** | 144.1 | -1.11% | Blower ramped to full speed |
 | **20 s** | **125.0** | 127.3 | -1.81% | Ultrasonic misting engaged at t=15s |
 | **30 s** | **104.2** | 106.0 | -1.70% | Dense micro-droplet aerosol active |
 | **40 s** | **82.4** | 84.1 | -2.02% | Visible particulate agglomeration |
@@ -63,19 +68,19 @@ $$\text{Total 90-Second Particulate Reduction} = \frac{148.0 - 41.2}{148.0} \tim
 
 ---
 
-## 3. MQ-135 Toxic Gas Sensitivity & Priority Alarm Benchmark
+## 3. Toxic Gas Sensitivity & Priority Alarm Benchmark
 
-To validate early warning capabilities for chemical emergencies (preventing Bhopal-scale gas exposure), the MQ-135 sensor array was exposed to controlled vapor plumes of ammonium hydroxide ($\text{NH}_4\text{OH}$) and volatile ethanol:
+To validate early warning capabilities for chemical emergencies (preventing Bhopal-scale gas exposure), the multi-gas sensor array was exposed to controlled vapor plumes of ammonium hydroxide ($\text{NH}_4\text{OH}$) and volatile organic compounds:
 
 ```
-[Gas Vapor Injected] ──> [Sensor Resistance Drops] ──> [Threshold Crossed (>300 ppm)] ──> [Local Buzzer Triggers] ──> [ntfy.sh REST Cloud Alert]
+[Gas Vapor Injected] ──> [Sensor Resistance Drops] ──> [Threshold Crossed (>300 ppm)] ──> [Local Siren Triggers] ──> [Instant Cloud Alert]
 ```
 
-### 3.1 Measured Alarm Latency Breakdown
-1. **Physical Diffusion into Sensor Chamber**: $0.24\text{ seconds}$.
-2. **ADC Voltage Sampling & Linear Regression**: $0.08\text{ seconds}$ (ESP32-S3 Core 1).
+### Measured Alarm Latency Breakdown
+1. **Physical Diffusion into Chamber**: $0.24\text{ seconds}$.
+2. **Voltage Sampling & Microprocessor Processing**: $0.08\text{ seconds}$.
 3. **Local Alarm Trigger (OLED Strobe + Buzzer)**: $0.12\text{ seconds}$.
-4. **Cloud Notification Dispatch (ntfy.sh API via WiFi/4G)**: $0.48\text{ seconds}$.
+4. **Cloud Emergency Notification Dispatch**: $0.48\text{ seconds}$.
 5. **Total End-to-End Alert Latency**: **$0.92\text{ seconds}$ (< 1 second total response time)**.
 
 ---

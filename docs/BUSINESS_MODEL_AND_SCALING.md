@@ -1,6 +1,11 @@
 # 💼 Eco Guardian: Business Model, Financial Projections & Scaling Strategy
 
-This document outlines the commercialization strategy, revenue streams, unit economics, 3-year financial projections, and Pan-India rollout plan for **Eco Guardian**.
+> ### सं गच्छध्वं सं वदध्वं सं वो मनांसि जानताम् ।<br/>देवा भागं यथा पूर्वे संजानाना उपासते ॥
+> *saṁ gacchadhvaṁ saṁ vadadhvaṁ saṁ vo manāṁsi jānatām |<br/>devā bhāgaṁ yathā pūrve saṁjānānā upāsate ||*
+> 
+> — **ऋग्वेद (Rigveda 10.191.2, Sangathan Sukta)**
+> 
+> *"Walk together in harmony; speak together with one voice; let your minds move in noble accord, even as the illuminated divine forces in ancient times shared the sacred offerings in mutual reverence."*
 
 ---
 
@@ -16,7 +21,7 @@ graph LR
     HW --> MUNI_SAAS["2. Municipal Smart City SaaS<br/>(₹599 / node / mo)"]
     HW --> ENT_SAAS["3. Enterprise & Campus ESG SaaS<br/>(₹1,200 / mo + ₹22k CapEx)"]
     
-    DPDT_DATA --> HIGH_MARGIN["70%+ Recurring Gross Margins & Predictable Cash Flow"]
+    DPDT_DATA --> HIGH_MARGIN["70%+ Recurring Gross Margins & Compounding Cash Flow"]
     MUNI_SAAS --> HIGH_MARGIN
     ENT_SAAS --> HIGH_MARGIN
 ```
@@ -31,8 +36,8 @@ graph LR
   - **Commercial EV Fleets (BluSmart, Tata.ev)**: Ambient temperature and particulate density directly affect battery degradation rates and cabin air conditioning loads. Hyper-local heatmaps optimize charging schedules and route battery efficiency by up to 12%.
   - **Last-Mile Logistics (Delhivery, Porter, Blinkit)**: Real-time road damage and pothole data prevent vehicle suspension damage and reduce cargo breakage.
   - **Health & Life Insurers**: Ward-level respiratory risk metrics enable micro-insurance underwriting and actuarial risk modeling.
-- **Pricing**: Tiered B2B API subscriptions:
-  - *Starter*: ₹30,000 / month (Regional Ward Access, 100k API calls).
+- **Pricing**: Tiered B2B subscriptions:
+  - *Starter*: ₹30,000 / month (Regional Ward Access).
   - *Enterprise*: ₹1,20,000 / month (Metro-wide real-time live streaming feed).
 
 ### Stream 2: Municipal Smart City SaaS Subscription (₹599 / node / month)
@@ -54,11 +59,11 @@ graph LR
 
 ## 3. Unit Economics Breakdown
 
-| Parameter | Unit Value (₹) | Notes / Assumptions |
+| Parameter | Unit Value (₹) | Strategic Significance |
 | :--- | :--- | :--- |
-| **BOM Cost (Batch of 30+)** | ₹10,560 | Volume component sourcing (ESP32-S3, Solar, Jute, Sensors) |
+| **BOM Cost (Batch of 30+)** | ₹10,560 | Volume component sourcing (Processor, Solar, Jute, Sensors) |
 | **Assembly, Calibration & QC** | ₹1,440 | Labor, lab co-location calibration, packaging |
-| **Total Hardware CoGS** | **₹12,000** | Direct cost per sentinel node |
+| **Total Hardware CoGS** | **₹12,000** | Direct manufacturing cost per sentinel node |
 | **Hardware Retail Price (CapEx)**| **₹22,000** | 45.5% upfront gross profit margin (₹10,000 profit/node) |
 | **Annual Recurring SaaS per Node**| ₹7,188 / year | ₹599 / month municipal SaaS |
 | **Annual Recurring Data Share / Node**| ₹9,600 / year | Estimated enterprise API value derived per active node |
@@ -75,7 +80,7 @@ Year 3 (Base Case)         : ₹1.56 Crores  (450 Active Sentinel Nodes)
 Year 3 (Scale Case)        : ₹3.23 Crores  (800+ Active Sentinel Nodes)
 ```
 
-### 4.1 Detailed 3-Year P&L Projection
+### Detailed 3-Year P&L Projection
 
 | Line Item | Year 1 (Pilot) | Year 2 (Growth) | Year 3 (Base) | Year 3 (Scale) |
 | :--- | :---: | :---: | :---: | :---: |
@@ -95,10 +100,6 @@ Year 3 (Scale Case)        : ₹3.23 Crores  (800+ Active Sentinel Nodes)
 ## 5. Pan-India Scalability Roadmap
 
 Eco Guardian employs a **Cluster Density Model**: winning high-density municipal references before geographic expansion:
-
-```
-[Phase 1: Tier-1 Anchor] ──> [Phase 2: Tier-2 Innovation Hubs] ──> [Phase 3: Tier-3 Chemical Belts]
-```
 
 1. **Phase 1: Tier-1 Metros (Dwarka Pilot Anchor - Months 1–12)**:
    - Deploy 30 to 50 nodes in collaboration with Delhi Municipal Corporation (MCD) across Dwarka Sector 1 & Sector 2.
