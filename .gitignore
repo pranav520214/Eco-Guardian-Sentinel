@@ -1,0 +1,39 @@
+# Compiled binaries and object files
+*.o
+*.a
+*.so
+*.elf
+*.bin
+*.hex
+
+# Arduino / PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+build/
+*.sketch/
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+*.egg-info/
+
+# Operating System temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+
+# IDE and Editor configurations
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Large media backup / temp renders
+*.log
